@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=Discord Wayland
+Comment=Wayland discord
+Exec=/home/dkja/.config/hypr/scripts/Discord.sh
+Icon=/home/dkja/.icons/discord.png
+Type=Application
+Terminal=false
+StartupNotify=true
