@@ -19,7 +19,7 @@ const config = {
   },
   viteFinal: (config, options) => {
     if (options.configType === 'PRODUCTION') {
-      config.base = '/react-ignite-2022/'
+      config.base = '/design-system/'
     }
 
     return config
