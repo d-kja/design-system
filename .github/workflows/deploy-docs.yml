@@ -20,8 +20,7 @@ jobs:
           cache: 'npm'
           cache-dependency-path: '**/package-lock.json'
 
-      - name: Deploy storybook
-        working-directory: './packages/docs'
+      - name: Deploy  
         uses: bitovi/github-actions-storybook-to-github-pages@v1.0.3
         with:
           install_command: npm ci
